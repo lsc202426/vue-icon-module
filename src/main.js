@@ -5,8 +5,11 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
+//引入icon组件
+import "./icons/index";
+
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: h => h(App)
 }).$mount("#app");
